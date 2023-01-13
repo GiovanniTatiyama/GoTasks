@@ -1,0 +1,35 @@
+.header {
+    background: linear-gradient(90deg, rgba(32,139,89,1) 0%, rgba(36,177,111,1) 50%, rgba(32,139,89,1)100%);
+    /* background-color: #208b59; */
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: aliceblue;
+    transition: var(--transition);
+}
+
+h1 a:hover {
+    color:rgb(109, 218, 167);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+footer p {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #555;
+    opacity: 0.7;
+}
+
+footer p:hover {
+    opacity: 1;
+}

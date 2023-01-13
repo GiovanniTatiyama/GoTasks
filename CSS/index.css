@@ -1,0 +1,67 @@
+.container {
+    width: 100%;
+    max-width: 720px;
+    margin: 3em auto 6em auto;
+    flex: 1;
+}
+
+/* HEADER */
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.btn-new-task {
+    background-color: #277FFF;
+    color: aliceblue;
+}
+
+.btn-new-task:hover {
+    background-color: #0068FF;
+}
+
+.total-tasks {
+    color: #3d3d3d;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+#count-task {
+    font-weight: 900;
+    font-size: 1em;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 0 0 0.5rem;
+}
+
+table thead th{
+    background-color: #fff;
+    color: #969CB3;
+    opacity: 0.9;
+    padding: 1em;
+    font-size: 0.9em;
+}
+
+table tbody tr:first-child {
+    margin-top: 24px;
+}
+
+table tbody td {
+    background-color: #fff;
+    color: #535457;
+    padding: 1.2em;
+    font-weight: 700;
+}
+
+#loading-message {
+    text-align: center;
+    color:#969CB3;
+    margin-top: 1em;
+}
